@@ -1,0 +1,66 @@
+---
+title: "Házi feladat 1"
+subtitle: |
+  | Programozás I.
+date: "2016/17. II. félév"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+---
+
+## I. feladat (2 pont)
+1. Nyiss egy új R fájlt a ```homework-01``` R projekten belül egy ```src``` nevű mappában, majd nevezd el a fájlt ```homework-01.R```-nek!
+2. A fájlt kikommentelt fejléccel kezdd, amiben megadod a következőket: 
+    - fájl címe (*Házi feladat 1*)
+    - kurzus neve (*Programozás I.*)
+    - félév (*2016/17. II. félév*)
+    - neved
+    - dátum
+3. A következő feladat megoldásait ebbe a szkriptbe írd és kommenteld folyamatosan, amit csinálsz!
+4. Figyelj, hogy minél jobban betartsd a R kódírási stílusra vonatkozó irányelveket!
+
+---
+
+## II. feladat (8 pont)
+1. Installáld a ```fivethirtyeight``` package-et, majd hívd be!
+2. Keresd meg azt a datasetet, aminek a következő a leírása:
+```
+A Complete Catalog Of Every Time Someone Cursed Or Bled Out In A Quentin Tarantino Movie
+```
+Olvasd be ezt a datasetet!
+3. Egy új ```year``` nevű oszlopba írd be a filmek moziba kerülési évét:
+    * Reservoir Dogs: 1992
+    * Pulp Fiction: 1994
+    * Kill Bill: Vol. 1: 2003
+    * Kill Bill: Vol. 2: 2004
+    * Jackie Brown: 1997
+    * Inglorious Basterds: 2009
+    * Django Unchained: 2012
+4. Melyik filmben hangzott el a legkorábban szitokszó? Melyik szó volt ez és hányadik percben hangzott el?
+5. Melyik a Tarantino filmek leggyakoribb szitokszava? Tedd csökkenő sorrendbe a szavakat gyakoriság szerint!
+6. Melyik filmben hangzott el a shitless szó?
+7. Listázd ki azokat a sorokat, ahol a szó hiányos adat! Hány ilyen sor van?
+8. Nézd meg, milyen adattípusúak a movie és word oszlopok! Alakítsd át őket factor típusúvá, ha eddig nem tetted valamelyik lépésben (ami nem volt kötelező)!
+9. Szűrd le a data frame-et úgy, hogy csak a 3 leggyakoribb szóhoz tartozó sorok maradjanak benne!
+10. Nézd meg az R dokumentációban a ```table``` függvényt! Csináld meg vele a filmek és a 3 leggyakoribb szó kereszttábláját! Szükség lesz még a ```droplevel``` függvényre is, amivel a felesleges faktorszinteket tudod törölni. Ennek is nézz utána a dokumentációban!
+11. Nézd meg, melyik filmben hány halál történt és hány szitokszó hangzott el! Volt olyan film, ahol több halál volt, mint szitkozódás?
+12. Írd ki tsv formátumba a datasetet egy ```data``` nevű mappába ```datasetneve.tsv``` néven (értelemszerűen a dataset neve szerepeljen a tsv nevében)!
+13. A most kiírt tsv-t olvasd be egy új változóba ```datasetneve2``` néven, majd töröld ki!
+
+---
+
+## III. feladat (+3 pont)
+1. Klónozd le a saját gépedre a házi feladat repóját a github csoportunkból!
+2. A ```homework-01.R``` fájl írása közben minimum kétszer commitolj:
+    * Egyszer, amikor megcsináltad a fájlt a fejléccel!
+    * Majd még egyszer, amikor megcsináltad a feladatmegoldásaidat! Ha egyben megcsinálod az összeset, elég csak egy commit. Ha több részletben csinálod, commitolj külön minden egyes részletet! Az utolsó commitnál a data mappában lévő tsv fájlt is add hozzá!
+3. A ```.gitignore``` fájlból vedd ki az ```src/homework-01.R``` sort, és commitold!
+4. Ha kész vagy, küldj egy pull requestet a módosított repóddal!
+
+---
+ 
+
