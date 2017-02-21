@@ -4,7 +4,7 @@
 
 * Course: Programozás I. (SST111)
 * Term: 2016/17 II.
-* Deadline: 27-02-2017
+* Deadline: 28-02-2017
 
 ---
 
