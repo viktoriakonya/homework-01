@@ -13,7 +13,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ---
 
 ## I. feladat (2 pont)
-1. Nyiss egy új R fájlt a ```homework-01``` R projekten belül egy ```src``` nevű mappában, majd nevezd el a fájlt ```homework-01.R```-nek!
+1. Nyiss egy új R fájlt a ```homework-01``` R projekten belül egy ```src``` nevű mappában, majd nevezd el a fájlt ```homework-01.R```-nek! Ha gitezel, ennél a pontnál nézz rá a III. feladat 2. pontjára!
 2. A fájlt kikommentelt fejléccel kezdd, amiben megadod a következőket: 
     - fájl címe (*Házi feladat 1*)
     - kurzus neve (*Programozás I.*)
@@ -55,10 +55,10 @@ Olvasd be ezt a datasetet!
 
 ## III. feladat (+3 pont)
 1. Klónozd le a saját gépedre a házi feladat repóját a github csoportunkból!
-2. A ```homework-01.R``` fájl írása közben minimum kétszer commitolj:
+2. A ```.gitignore``` fájlból vedd ki az ```src/homework-01.R``` sort, és commitold! Ha nem veszed ki ezt a sort, nem fogod látni a ```homework-01.R``` szkript módosításait a Git fülön.
+3. A ```homework-01.R``` fájl írása közben minimum kétszer commitolj:
     * Egyszer, amikor megcsináltad a fájlt a fejléccel!
     * Majd még egyszer, amikor megcsináltad a feladatmegoldásaidat! Ha egyben megcsinálod az összeset, elég csak egy commit. Ha több részletben csinálod, commitolj külön minden egyes részletet! Az utolsó commitnál a data mappában lévő tsv fájlt is add hozzá!
-3. A ```.gitignore``` fájlból vedd ki az ```src/homework-01.R``` sort, és commitold!
 4. Ha kész vagy, küldj egy pull requestet a módosított repóddal!
 
 ---
