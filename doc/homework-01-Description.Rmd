@@ -59,7 +59,13 @@ Olvasd be ezt a datasetet!
 3. A ```homework-01.R``` fájl írása közben minimum kétszer commitolj:
     * Egyszer, amikor megcsináltad a fájlt a fejléccel!
     * Majd még egyszer, amikor megcsináltad a feladatmegoldásaidat! Ha egyben megcsinálod az összeset, elég csak egy commit. Ha több részletben csinálod, commitolj külön minden egyes részletet! Az utolsó commitnál a data mappában lévő tsv fájlt is add hozzá!
-4. Ha kész vagy, küldj egy pull requestet a módosított repóddal!
+4. Ha kész vagy a módosításokkal, csinálj egy új branchet a módosításaiddal! A branch neve legyen ```my-solutions-sajátmonogram```. Pushold a branchet GitHubra! Új branch létrehozása és pusholása:
+```
+git branch my-solutions-sajátmonogram
+git checkout my-solutions-sajátmonogram
+git push origin my-solutions-sajátmonogram
+```
+5. Küldj egy pull requestet a branchedből a GitHub felületén!
 
 ---
  
